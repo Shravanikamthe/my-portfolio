@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shravani Kamthe - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f7f9fc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 20px 50px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #ddd;
+      background: #ffffff;
+    }
+
+    .profile-pic {
+      flex: 0.8;
+      text-align: center;
+      min-width: 240px;
+    }
+
+    .profile-pic img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ddd;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    .intro {
+      flex: 1;
+      min-width: 280px;
+      padding: 20px;
+    }
+
+    .intro h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #1e2a38;
+      margin-bottom: 10px;
+    }
+
+    .typing {
+      font-size: 1.1rem;
+      color: #444;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #999;
+      width: 0;
+      animation: typing 3.5s steps(60, end) forwards, blink 0.8s infinite;
+    }
+
+    @keyframes typing {
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background: #f0f2f5;
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid #ccc;
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #1e2a38;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1e2a38;
+      font-size: 1.9rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+    }
+
+    .card p {
+      margin-bottom: 10px;
+    }
+
+    .card a {
+      color: #1e2a38;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      background-color: #f1f1f1;
+      color: #666;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="profile-pic">
+    <img src="c:\Users\shrav\OneDrive\Pictures\images\me.png" alt="Shravani Kamthe Photo" />
+  </div>
+  <div class="intro">
+    <h1>Shravani Kamthe</h1>
+    <div class="typing">Hi! I'm a 3rd year Computer Engineering student with a flair for design, logic & problem solving.</div>
+  </div>
+</header>
+
+<nav>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <ul>
+      <li><strong>HTML:</strong> Experienced in building responsive and structured webpages with clean code.</li>
+      <li><strong>C++:</strong> Strong grasp of logic building, object-oriented programming, and data structures.</li>
+      <li><strong>Java:</strong> Comfortable with OOP principles and basic application development.</li>
+      <li><strong>Teamwork & Learning:</strong> Quick to adapt and always open to learning new technologies.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <p><strong>🧵 Crochet Shop Website</strong></p>
+    <p>A soft, minimal site to showcase handmade crochet creations. Focused on simplicity and warmth.</p>
+    <p>🔗 <a href="file:///C:/Users/shrav/.vscode/crochet.html">View Crochet Shop</a></p>
+  </div>
+
+  <div class="card">
+    <p><strong>👗 Fashion Store Website</strong></p>
+    <p>Modern e-commerce layout to display stylish clothing collections. User-friendly and responsive.</p>
+    <p>🔗 <a href="file:///C:/Users/shrav/.vscode/clothing_website.html">View Fashion Store</a></p>
+  </div>
+
+  <div class="card">
+    <p><strong>💼 Portfolio Website</strong></p>
+    <p>This portfolio – designed to reflect my personal style and journey as a student developer.</p>
+    <p>🔗 <a href="file:///C:/Users/shrav/.vscode/portfolio.html">View Portfolio</a></p>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="card">
+    <p>Email: <a href="shravanikamthe09@gmail.com">shravanikamthe09@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Shravanikamthe">https://github.com/Shravanikamthe</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shravani-kamthe/">https://www.linkedin.com/in/shravani-kamthe/</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Shravani Kamthe | Portfolio
+</footer>
+
+</body>
+</html>
